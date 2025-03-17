@@ -6,7 +6,7 @@ This repository record Lab1, Lab2, Lab3 and Final Project of this course.
 | Task | Skills | Models |  
 | ---- | ------ | ------ |  
 | Lab 1 | Automatic Speech Recognition(自動語音辨識) | Whisper |  
-| Lab 2 | Speech Enhancement(語音增強) | unknown |  
-| Lab 3 | Text-to-Speech (語音生成) & Voice Conversion (語音轉換) | unknown |  
-| Final Project | ASR, SE, VC | unknown |  
+| Lab 2 | Speech Enhancement(語音增強) | SGMSE |  
+| Lab 3 | Text-to-Speech (語音生成) & Voice Conversion (語音轉換) | FreeVC |  
+| Final Project | ASR, SE, VC | Whisper |  
 
