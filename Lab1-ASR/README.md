@@ -17,7 +17,12 @@ The main task of Lab1 is to finetune Whisper model with VCTK dataset.
 | Sentence number Difference | Inconsistent File Removal |  
 
 #### Parameter tuning
-Tuning learning_rate, weight_decay, warmup_steps, batch_size for lower WER.
+| Parameter List |  
+| ---- |  
+| learning_rate |  
+| weight_decay |  
+| warmup_steps |  
+| batch_size |  
 
 #### Post-processing
 1. Remove punctuation
