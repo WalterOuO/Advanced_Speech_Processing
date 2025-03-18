@@ -15,8 +15,8 @@ The training data are used to finetue the SGMSE model with the pretrained checkp
 ### Performance  
 | Metrics | Baseline | Performance |
 | ------- | ----- | -------- |
-| PESQ | 1.15 ± 0.14 | 1.16 ± 0.13 |
-| ESTOI | 0.35 ± 0.19 | 0.37 ± 0.19 |
-| SI-SDR | -1.6 ± 8.7 | 0.2 ± 6.1 |
-| SI-SIR | 11.5 ± 16.4 | 13.1 ± 13.1 |
-| SI-SAR | 0.8 ± 8.4 | 1.5 ± 5.5 |
+| PESQ | 1.15 ± 0.14 | **1.16 ± 0.13** |
+| ESTOI | 0.35 ± 0.19 | **0.37 ± 0.19** |
+| SI-SDR | -1.6 ± 8.7 | **0.2 ± 6.1** |
+| SI-SIR | 11.5 ± 16.4 | **13.1 ± 13.1** |
+| SI-SAR | 0.8 ± 8.4 | **1.5 ± 5.5** |
