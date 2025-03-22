@@ -1,6 +1,6 @@
 ## 2024 NTHU COM 621000 Advanced Topics in Speech Applications 進階語音訊號處理 Lab 2  
 This is a folder to record Lab2 of Advanced Topics in Speech Applications, Lab2 mainly focus on Speech Enhancement (語音增強).  
-The main task of Lab2 is to use the diffusion-based generative model (SGMSE) to implement Speech Enhancement and Dereverberation.  
+The main task of Lab2 is to use the diffusion-based generative model [SGMSE](https://github.com/sp-uhh/sgmse) to implement Speech Enhancement and Dereverberation.  
 
 ### Dataset Information  
 | Noise Dataset | Training set | Testing set |
