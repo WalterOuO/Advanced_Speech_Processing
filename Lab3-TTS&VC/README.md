@@ -7,7 +7,7 @@ The model used in this conversion task is [FreeVC](https://github.com/OlaWod/Fre
 ### Voice Conversion Introduction  
 The fundamental concept of voice conversion is simple, voice can be disentangled to speaker embedding and content embedding, using speaker embedding from target to sythesize with the source content embedding can generate a converted audio that sounds like target's voice but using the content from source. 
 
-![Voice Conversion](https://github.com/user-attachments/assets/0bbdaa71-b12e-4d5b-b0fc-edb4e354f3b8 =600x800)
+![Voice Conversion](https://github.com/user-attachments/assets/0bbdaa71-b12e-4d5b-b0fc-edb4e354f3b8){ width=400 }
 
 
 ### Dataset Information  
