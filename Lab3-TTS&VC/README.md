@@ -25,6 +25,6 @@ The fundamental concept of voice conversion is simple, voice can be disentangled
 
 
 ### Experiences  
-When converting a **Male** source to a **female** target, F0 pitch shifting can make significant effect on sythesis result.  
+When converting a **Male** source to a **Female** target, F0 pitch shifting can make significant effect on sythesis result.  
 It is recommended to shift the average F0 of source to the average F0 of target, leading to more ideal conversion performance.  
 However, the skills of a person cannot be converted, in the disentanglement part, the skills or the way of speaking from source will be seperated into content embedding, so source's skills will be included when sythesized with target speaker embedding.  
