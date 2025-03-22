@@ -1,6 +1,8 @@
 ## 2024 NTHU COM 621000 Advanced Topics in Speech Applications 進階語音訊號處理 Lab 3
 This is a folder to record Lab3 of Advanced Topics in Speech Applications, Lab3 mainly focus on Text to Speech (TTS) and Voice Conversion (VC).  
-The main task of Lab3 is to convert a source voice sound to be like target voice, including converting male voice and female voice.  
+Lab3 is a self-surpervised learning task to convert a source audio file to sound like target voice, including converting male voice and female voice.  
+The model used in this conversion task is [FreeVC](https://github.com/OlaWod/FreeVC).
+
 
 ### Voice Conversion Introduction  
 The fundamental concept of voice conversion is simple, voice can be disentangled to speaker embedding and content embedding, using speaker embedding from target to sythesize with the source content embedding can generate a converted audio that sounds like target's voice but using the content from source. 
@@ -16,4 +18,13 @@ The fundamental concept of voice conversion is simple, voice can be disentangled
 
 
 ### Methods
-For
+1. Data Augmentation
+   We added our own recorded voice using parellel text to the training dataset, trying to let neural network see more voice characteristics.   
+2. Pitch shift and Speed Change
+3. Using [s3prl](https://github.com/s3prl/s3prl) to replace FreeVC model.
+
+
+### Experiences  
+When converting a **Male** source to a **female** target, F0 pitch shifting can make significant effect on sythesis result.  
+It is recommended to shift the average F0 of source to the average F0 of target, leading to more ideal conversion performance.  
+However, the skills of a person cannot be converted, in the disentanglement part, the skills or the way of speaking from source will be seperated into content embedding, so source's skills will be included when sythesized with target speaker embedding.  
