@@ -21,7 +21,7 @@ The fundamental concept of voice conversion is simple, voice can be disentangled
 1. Data Augmentation
    We added our own recorded voice using parellel text to the training dataset, trying to let neural network see more voice characteristics.   
 2. Pitch shift and Speed Change
-3. Using [s3prl](https://github.com/s3prl/s3prl) to replace FreeVC model.
+3. Using [s3prl](https://github.com/s3prl/s3prl) model to replace FreeVC model.
 
 
 ### Experiences  
