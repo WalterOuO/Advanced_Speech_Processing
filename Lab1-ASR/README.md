@@ -30,7 +30,7 @@ The main task of Lab1 is to finetune Whisper model with VCTK dataset.
 These post-processing methods overall reduces the WER by 3%
 
 ### Performance
-The best WER of this AST task is = **18.71%** 
+The best WER of this ASR task is = **18.71%** 
 
 ### Learned Experience
 In deep learning field, the first step to solve a problem is to find a STOA model, model and model size always take importance role, sencondary, data augmentation can greatly improve performance, even no need parameter tuning or just need a little.  
